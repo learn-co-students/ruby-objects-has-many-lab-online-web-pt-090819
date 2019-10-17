@@ -32,7 +32,7 @@ describe 'Post' do
 
   describe '#title' do
     it 'has a title' do
-      expect(post.title).to eq('My Blog Post!')
+      expect(post.name).to eq('My Blog Post!')
     end
   end
 
